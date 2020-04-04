@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from '@apollo/react-hooks';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
+import Login from './Pages/Login';
+import Welcome from './Pages/Welcome';
+
+const client = new ApolloClient({
+  uri: 'http://localhost:4000',
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ApolloProvider client={client}>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path={"/"}>
+              <Welcome />
+            </Route>
+            <Route path={"/login"}>
+              <Login />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </ApolloProvider>
   );
 }
 
