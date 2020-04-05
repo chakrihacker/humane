@@ -12,6 +12,14 @@ import Signup from "./Pages/Signup";
 
 const client = new ApolloClient({
   uri: "http://localhost:4000",
+  request: (operation) => {
+    const token = localStorage.getItem('token')
+    operation.setContext({
+      headers: {
+        Authorization: token ? `Bearer ${token}` : ''
+      }
+    })
+  }
 });
 
 const theme = createMuiTheme();

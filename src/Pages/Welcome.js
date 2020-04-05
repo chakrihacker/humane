@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
-import Button from '@material-ui/core/Button';
+import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 
 const StyledWelcome = styled.div`
@@ -16,31 +16,48 @@ const StyledWelcome = styled.div`
 `;
 
 const Row = styled.div`
-	& > * {
-		margin: 8px !important;
-	}
-	display: flex;
-`
+  & > * {
+    margin: 8px !important;
+  }
+  display: flex;
+`;
 
 const StyledH1 = styled.h1`
-	${({theme}) => `
+  ${({ theme }) => `
     padding: ${theme.spacing(1)}px;
 	`}
-`
+`;
 
 const Welcome = () => {
-	let history = useHistory();
+  let history = useHistory();
 
-	const handleClick = (route) =>  {
-		history.push(route)
-	}
+  useEffect(() => {
+    let token = localStorage.getItem("token");
+    if (token) {
+      history.push("/dashboard");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const handleClick = (route) => {
+    history.push(route);
+  };
+
   return (
     <StyledWelcome>
       <StyledH1>Welcome to Humane</StyledH1>
-			<Row>
-				<Button variant="contained" color="secondary" onClick={() => handleClick("/login")}>Login</Button>
-				<Button variant="contained" color="secondary">Sign up</Button>
-			</Row>
+      <Row>
+        <Button
+          variant="contained"
+          color="secondary"
+          onClick={() => handleClick("/login")}
+        >
+          Login
+        </Button>
+        <Button variant="contained" color="secondary">
+          Sign up
+        </Button>
+      </Row>
     </StyledWelcome>
   );
 };
