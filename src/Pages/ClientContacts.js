@@ -70,27 +70,21 @@ const tableIcons = {
   ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />),
 };
 
-const SPEND_HISTORY = gql`
-  {
-    spend_history {
-      spends {
-        id
-        items
-        merchant {
-          name
-          id
-        }
-        amount
-				createdAt
-      }
-      cursor
-      hasMore
-    }
+const CLIENT_CONTACTS = gql`
+	{
+  client_contacts {
+    id
+    name
+    companyName
+		title
+    address
+    industry
   }
-`;
+}
+`
 
-const SpendHistory = () => {
-  const { loading, error, data } = useQuery(SPEND_HISTORY);
+const ClientContacts = () => {
+	const { loading, error, data } = useQuery(CLIENT_CONTACTS);
 
   useEffect(() => {
     console.log(data);
@@ -98,28 +92,29 @@ const SpendHistory = () => {
 
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
-  return (
-    <div>
+	return (
+		<div>
       <MuiThemeProvider theme={theme}>
         <MaterialTable
-          title={"Spend History"}
+          title={"Client Contacts"}
           icons={tableIcons}
 					options={{
 						pageSize: 10
 					}}
           columns={[
             { title: "Id", field: "id" },
-            { title: "Amount", field: "amount", render: (data) => `$ ${data.amount}` },
-            { title: "Items", field: "items" },
-            { title: "Merchant", field: "merchant.name" },
-            { title: "Created At", field: "createdAt", type: "datetime" },
+            { title: "Name", field: "name" },
+						{title: "Title", field: "title"},
+            { title: "Company Name", field: "companyName" },
+            { title: "Address", field: "address" },
+            { title: "Industry", field: "industry" },
           ]}
-          data={data.spend_history.spends}
+          data={data.client_contacts}
           editable={true}
         />
       </MuiThemeProvider>
     </div>
-  );
-};
+	)
+}
 
-export default SpendHistory;
+export default ClientContacts

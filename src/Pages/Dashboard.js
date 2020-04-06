@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Header from '../Components/Header';
 import {  Route, Switch, useRouteMatch, useHistory } from "react-router-dom";
 import SpendHistory from './SpendHistory';
+import ClientContacts from './ClientContacts';
 
 const StyledDashboard = styled.div`
   ${({ theme }) => `
@@ -32,6 +33,9 @@ const Dashboard = () => {
 			<Switch>
 				<Route path={`${path}/spend-history`}>
 					<SpendHistory />
+				</Route>
+				<Route path={`${path}/client-contacts`}>
+					<ClientContacts />
 				</Route>
 			</Switch>
 		</StyledDashboard>

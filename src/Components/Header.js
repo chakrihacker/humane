@@ -30,6 +30,12 @@ const Header = () => {
           history.push(`/dashboard${route}`)
         }
         break;
+
+      case "/client-contacts":
+        if(history.location.pathname !== `/dashboard${route}`) {
+          history.push(`/dashboard${route}`)
+        }
+        break;
     
       default:
         break;
@@ -74,7 +80,7 @@ const Header = () => {
             onClose={handleClose}
           >
             <MenuItem onClick={() => handleClose("/spend-history")}>Spend History</MenuItem>
-            <MenuItem onClick={handleClose}>Manage Contacts</MenuItem>
+            <MenuItem onClick={() => handleClose("/client-contacts")}>Manage Contacts</MenuItem>
           </Menu>
         </div>
       </StyledToolbar>
