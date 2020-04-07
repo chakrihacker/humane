@@ -21,7 +21,7 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import grey from '@material-ui/core/colors/grey';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
   palette: {
     primary: {
       light: "#757ce8",
@@ -70,7 +70,7 @@ const tableIcons = {
   ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />),
 };
 
-const CLIENT_CONTACTS = gql`
+export const CLIENT_CONTACTS = gql`
 	{
   client_contacts {
     id

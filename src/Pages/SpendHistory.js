@@ -18,10 +18,10 @@ import SaveAlt from "@material-ui/icons/SaveAlt";
 import Search from "@material-ui/icons/Search";
 import ViewColumn from "@material-ui/icons/ViewColumn";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
-import grey from '@material-ui/core/colors/grey';
-import blueGrey from '@material-ui/core/colors/blueGrey';
+import grey from "@material-ui/core/colors/grey";
+import blueGrey from "@material-ui/core/colors/blueGrey";
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
   palette: {
     primary: {
       light: "#757ce8",
@@ -34,15 +34,15 @@ const theme = createMuiTheme({
       main: "#f44336",
       dark: "#ba000d",
       contrastText: "#000",
-		},
-		background: {
-			default: grey[900],
-			paper: blueGrey[700]
-		},
-		text: {
-			primary: "#fff"
-		},
-		divider: blueGrey["A200"],
+    },
+    background: {
+      default: grey[900],
+      paper: blueGrey[700],
+    },
+    text: {
+      primary: "#fff",
+    },
+    divider: blueGrey["A200"],
   },
 });
 
@@ -70,7 +70,7 @@ const tableIcons = {
   ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />),
 };
 
-const SPEND_HISTORY = gql`
+export const SPEND_HISTORY = gql`
   {
     spend_history {
       spends {
@@ -81,7 +81,7 @@ const SPEND_HISTORY = gql`
           id
         }
         amount
-				createdAt
+        createdAt
       }
       cursor
       hasMore
@@ -92,10 +92,6 @@ const SPEND_HISTORY = gql`
 const SpendHistory = () => {
   const { loading, error, data } = useQuery(SPEND_HISTORY);
 
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
-
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
   return (
@@ -104,12 +100,16 @@ const SpendHistory = () => {
         <MaterialTable
           title={"Spend History"}
           icons={tableIcons}
-					options={{
-						pageSize: 10
-					}}
+          options={{
+            pageSize: 10,
+          }}
           columns={[
             { title: "Id", field: "id" },
-            { title: "Amount", field: "amount", render: (data) => `$ ${data.amount}` },
+            {
+              title: "Amount",
+              field: "amount",
+              render: (data) => `$ ${data.amount}`,
+            },
             { title: "Items", field: "items" },
             { title: "Merchant", field: "merchant.name" },
             { title: "Created At", field: "createdAt", type: "datetime" },

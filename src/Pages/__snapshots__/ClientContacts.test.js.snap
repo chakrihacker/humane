@@ -1,0 +1,1031 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client Contacts snapshot 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Client Contacts snapshot 2`] = `
+<div>
+  <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+      style="position: relative;"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular MTableToolbar-root-246 MuiToolbar-gutters"
+      >
+        <div
+          class="MTableToolbar-title-250"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6"
+            style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+          >
+            Client Contacts
+          </h6>
+        </div>
+        <div
+          class="MTableToolbar-spacer-248"
+        />
+        <div
+          class="MuiFormControl-root MuiTextField-root MTableToolbar-searchField-251"
+        >
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                title="Search"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd"
+              placeholder="Search"
+              type="text"
+              value=""
+            />
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MTableToolbar-actions-249"
+        >
+          <div>
+            <div>
+              <span />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Component-horizontalScrollContainer-363"
+        style="overflow-x: auto; position: relative;"
+      >
+        <div>
+          <div
+            style="overflow-y: auto;"
+          >
+            <div>
+              <table
+                class="MuiTable-root"
+                style="table-layout: auto;"
+              >
+                <thead
+                  class="MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Id
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Name
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Title
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Company Name
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Address
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Industry
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root"
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                    index="0"
+                    level="0"
+                    path="0"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="1"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Amelia"
+                    >
+                      Amelia
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Direct Accounts Facilitator"
+                    >
+                      Direct Accounts Facilitator
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Hamill, Schuppe and Smith"
+                    >
+                      Hamill, Schuppe and Smith
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="East Robertaland"
+                    >
+                      East Robertaland
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Assurance"
+                    >
+                      Assurance
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="1"
+                    level="0"
+                    path="1"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2"
+                    >
+                      2
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Joy"
+                    >
+                      Joy
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Investor Tactics Analyst"
+                    >
+                      Investor Tactics Analyst
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Marquardt, Kertzmann and Casper"
+                    >
+                      Marquardt, Kertzmann and Casper
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Kuvalisport"
+                    >
+                      Kuvalisport
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Applications"
+                    >
+                      Applications
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="2"
+                    level="0"
+                    path="2"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="3"
+                    >
+                      3
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Houston"
+                    >
+                      Houston
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Central Web Developer"
+                    >
+                      Central Web Developer
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="West - Bechtelar"
+                    >
+                      West - Bechtelar
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="West Cesarstad"
+                    >
+                      West Cesarstad
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Optimization"
+                    >
+                      Optimization
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="3"
+                    level="0"
+                    path="3"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="4"
+                    >
+                      4
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Cicero"
+                    >
+                      Cicero
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Human Markets Specialist"
+                    >
+                      Human Markets Specialist
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Breitenberg and Sons"
+                    >
+                      Breitenberg and Sons
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Friesenview"
+                    >
+                      Friesenview
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Communications"
+                    >
+                      Communications
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="4"
+                    level="0"
+                    path="4"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="5"
+                    >
+                      5
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Fanny"
+                    >
+                      Fanny
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Lead Brand Specialist"
+                    >
+                      Lead Brand Specialist
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Bradtke and Sons"
+                    >
+                      Bradtke and Sons
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Emileberg"
+                    >
+                      Emileberg
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Metrics"
+                    >
+                      Metrics
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="5"
+                    level="0"
+                    path="5"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="6"
+                    >
+                      6
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Mathias"
+                    >
+                      Mathias
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Customer Assurance Coordinator"
+                    >
+                      Customer Assurance Coordinator
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="White Group"
+                    >
+                      White Group
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="New Daleview"
+                    >
+                      New Daleview
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Configuration"
+                    >
+                      Configuration
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="6"
+                    level="0"
+                    path="6"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="7"
+                    >
+                      7
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Cecil"
+                    >
+                      Cecil
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Future Branding Supervisor"
+                    >
+                      Future Branding Supervisor
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="O'Connell - Reilly"
+                    >
+                      O'Connell - Reilly
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="South Gillianborough"
+                    >
+                      South Gillianborough
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Interactions"
+                    >
+                      Interactions
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="7"
+                    level="0"
+                    path="7"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="8"
+                    >
+                      8
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Elbert"
+                    >
+                      Elbert
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Product Data Analyst"
+                    >
+                      Product Data Analyst
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="O'Conner - Purdy"
+                    >
+                      O'Conner - Purdy
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="New Carson"
+                    >
+                      New Carson
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Research"
+                    >
+                      Research
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="8"
+                    level="0"
+                    path="8"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="9"
+                    >
+                      9
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Melany"
+                    >
+                      Melany
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="International Tactics Coordinator"
+                    >
+                      International Tactics Coordinator
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Ullrich LLC"
+                    >
+                      Ullrich LLC
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="South Lilianaborough"
+                    >
+                      South Lilianaborough
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Data"
+                    >
+                      Data
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="9"
+                    level="0"
+                    path="9"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="10"
+                    >
+                      10
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Ezequiel"
+                    >
+                      Ezequiel
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="District Research Technician"
+                    >
+                      District Research Technician
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Yundt, Carter and Larson"
+                    >
+                      Yundt, Carter and Larson
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Lake Elwin"
+                    >
+                      Lake Elwin
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Operations"
+                    >
+                      Operations
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <table
+        class="MuiTable-root"
+      >
+        <tfoot
+          class="MuiTableFooter-root"
+          style="display: grid;"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-footer"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-footer MuiTablePagination-root Component-paginationRoot-214"
+              colspan="3"
+              icons="[object Object]"
+              style="float: right; overflow-x: auto;"
+            >
+              <div
+                class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar Component-paginationToolbar-215 MuiToolbar-gutters"
+              >
+                <div
+                  class="MuiTablePagination-spacer"
+                />
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption Component-paginationCaption-216 MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  Rows per page:
+                </p>
+                <div
+                  class="MuiInputBase-root MuiTablePagination-input MuiTablePagination-selectRoot Component-paginationSelectRoot-217"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby=" "
+                    class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      style="padding: 0px 5px;"
+                    >
+                      10 rows 
+                    </div>
+                  </div>
+                  <input
+                    type="hidden"
+                    value="10"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption Component-paginationCaption-216 MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  1-10 of 25
+                </p>
+                <div
+                  class="MTablePaginationInner-root-416"
+                >
+                  <span
+                    class=""
+                    title="First Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class=""
+                    title="Previous Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption"
+                    style="flex: 1; text-align: center; align-self: center; flex-basis: inherit;"
+                  >
+                    1-10 of 25
+                  </span>
+                  <span
+                    class=""
+                    title="Next Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </span>
+                  <span
+                    class=""
+                    title="Last Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render without error 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`should render without error 2`] = `
+<div>
+  Error! Network error: No more mocked responses for the query: {
+  client_contacts {
+    id
+    name
+    companyName
+    title
+    address
+    industry
+    __typename
+  }
+}
+, variables: {}
+</div>
+`;

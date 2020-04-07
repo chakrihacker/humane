@@ -1,0 +1,937 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spend History snapshot 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Spend History snapshot 2`] = `
+<div>
+  <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+      style="position: relative;"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular MTableToolbar-root-246 MuiToolbar-gutters"
+      >
+        <div
+          class="MTableToolbar-title-250"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6"
+            style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"
+          >
+            Spend History
+          </h6>
+        </div>
+        <div
+          class="MTableToolbar-spacer-248"
+        />
+        <div
+          class="MuiFormControl-root MuiTextField-root MTableToolbar-searchField-251"
+        >
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                title="Search"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd"
+              placeholder="Search"
+              type="text"
+              value=""
+            />
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MTableToolbar-actions-249"
+        >
+          <div>
+            <div>
+              <span />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Component-horizontalScrollContainer-363"
+        style="overflow-x: auto; position: relative;"
+      >
+        <div>
+          <div
+            style="overflow-y: auto;"
+          >
+            <div>
+              <table
+                class="MuiTable-root"
+                style="table-layout: auto;"
+              >
+                <thead
+                  class="MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Id
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Amount
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Items
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Merchant
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MTableHeader-header-366 MuiTableCell-alignLeft"
+                      scope="col"
+                      style="box-sizing: border-box;"
+                    >
+                      <span
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiTableSortLabel-root"
+                        role="button"
+                        tabindex="0"
+                      >
+                        <div
+                          aria-roledescription="Draggable item. Press space bar to lift"
+                          data-react-beautiful-dnd-drag-handle="1"
+                          data-react-beautiful-dnd-draggable="1"
+                          draggable="false"
+                          tabindex="0"
+                        >
+                          Created At
+                        </div>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root"
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                    index="0"
+                    level="0"
+                    path="0"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="41"
+                    >
+                      41
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="295"
+                    >
+                      $ 295
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Unbranded Cotton Pants"
+                    >
+                      Unbranded Cotton Pants
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Leannon, Hand and Erdman"
+                    >
+                      Leannon, Hand and Erdman
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.058Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="1"
+                    level="0"
+                    path="1"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="42"
+                    >
+                      42
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="119"
+                    >
+                      $ 119
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Licensed Rubber Bacon"
+                    >
+                      Licensed Rubber Bacon
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Yost - Marvin"
+                    >
+                      Yost - Marvin
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.061Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="2"
+                    level="0"
+                    path="2"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="43"
+                    >
+                      43
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="451"
+                    >
+                      $ 451
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Intelligent Granite Mouse"
+                    >
+                      Intelligent Granite Mouse
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Leannon, Hand and Erdman"
+                    >
+                      Leannon, Hand and Erdman
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.063Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="3"
+                    level="0"
+                    path="3"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="44"
+                    >
+                      44
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="290"
+                    >
+                      $ 290
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Awesome Steel Cheese"
+                    >
+                      Awesome Steel Cheese
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Rowe - Thompson"
+                    >
+                      Rowe - Thompson
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.066Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="4"
+                    level="0"
+                    path="4"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="45"
+                    >
+                      45
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="723"
+                    >
+                      $ 723
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Licensed Plastic Towels"
+                    >
+                      Licensed Plastic Towels
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Veum Group"
+                    >
+                      Veum Group
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.069Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="5"
+                    level="0"
+                    path="5"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="46"
+                    >
+                      46
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="727"
+                    >
+                      $ 727
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Licensed Metal Chair"
+                    >
+                      Licensed Metal Chair
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Stracke Inc"
+                    >
+                      Stracke Inc
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.071Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="6"
+                    level="0"
+                    path="6"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="47"
+                    >
+                      47
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="951"
+                    >
+                      $ 951
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Small Granite Ball"
+                    >
+                      Small Granite Ball
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Leffler and Sons"
+                    >
+                      Leffler and Sons
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.074Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="7"
+                    level="0"
+                    path="7"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="48"
+                    >
+                      48
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="883"
+                    >
+                      $ 883
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Small Granite Soap"
+                    >
+                      Small Granite Soap
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Leannon, Hand and Erdman"
+                    >
+                      Leannon, Hand and Erdman
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.076Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="8"
+                    level="0"
+                    path="8"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="49"
+                    >
+                      49
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="292"
+                    >
+                      $ 292
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Practical Frozen Hat"
+                    >
+                      Practical Frozen Hat
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Moen, Altenwerth and Kozey"
+                    >
+                      Moen, Altenwerth and Kozey
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.079Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                    index="9"
+                    level="0"
+                    path="9"
+                    style="transition: all ease 300ms;"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="50"
+                    >
+                      50
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="353"
+                    >
+                      $ 353
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Incredible Metal Chips"
+                    >
+                      Incredible Metal Chips
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="Veum Group"
+                    >
+                      Veum Group
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                      style="box-sizing: border-box;"
+                      value="2020-04-05T03:53:30.081Z"
+                    >
+                      4/5/2020, 9:23:30 AM
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <table
+        class="MuiTable-root"
+      >
+        <tfoot
+          class="MuiTableFooter-root"
+          style="display: grid;"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-footer"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-footer MuiTablePagination-root Component-paginationRoot-214"
+              colspan="3"
+              icons="[object Object]"
+              style="float: right; overflow-x: auto;"
+            >
+              <div
+                class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar Component-paginationToolbar-215 MuiToolbar-gutters"
+              >
+                <div
+                  class="MuiTablePagination-spacer"
+                />
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption Component-paginationCaption-216 MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  Rows per page:
+                </p>
+                <div
+                  class="MuiInputBase-root MuiTablePagination-input MuiTablePagination-selectRoot Component-paginationSelectRoot-217"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby=" "
+                    class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      style="padding: 0px 5px;"
+                    >
+                      10 rows 
+                    </div>
+                  </div>
+                  <input
+                    type="hidden"
+                    value="10"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTablePagination-caption Component-paginationCaption-216 MuiTypography-body2 MuiTypography-colorInherit"
+                >
+                  1-10 of 16
+                </p>
+                <div
+                  class="MTablePaginationInner-root-416"
+                >
+                  <span
+                    class=""
+                    title="First Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class=""
+                    title="Previous Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+                      disabled=""
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </span>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption"
+                    style="flex: 1; text-align: center; align-self: center; flex-basis: inherit;"
+                  >
+                    1-10 of 16
+                  </span>
+                  <span
+                    class=""
+                    title="Next Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </span>
+                  <span
+                    class=""
+                    title="Last Page"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiIconButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiIconButton-label"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render without error 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`should render without error 2`] = `
+<div>
+  Error! Network error: No more mocked responses for the query: {
+  spend_history {
+    spends {
+      id
+      items
+      merchant {
+        name
+        id
+        __typename
+      }
+      amount
+      createdAt
+      __typename
+    }
+    cursor
+    hasMore
+    __typename
+  }
+}
+, variables: {}
+</div>
+`;
