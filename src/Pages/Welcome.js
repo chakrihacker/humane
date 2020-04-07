@@ -31,13 +31,13 @@ const StyledH1 = styled.h1`
 const Welcome = () => {
   let history = useHistory();
 
-  useEffect(() => {
-    let token = localStorage.getItem("token");
-    if (token) {
-      history.push("/dashboard");
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // useEffect(() => {
+  //   let token = localStorage.getItem("token");
+  //   if (token) {
+  //     history.push("/dashboard");
+  //   }
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   const handleClick = (route) => {
     history.push(route);

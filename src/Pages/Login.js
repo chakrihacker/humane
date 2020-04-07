@@ -6,7 +6,6 @@ import { useMutation } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
 import { useHistory } from "react-router-dom";
 
-
 const StyledLogin = styled.div`
   ${({ theme }) => `
 		background-color: ${theme.palette.primary.main};
@@ -39,7 +38,7 @@ const StyledH1 = styled.h2`
 	`}
 `;
 
-const LOGIN = gql`
+export const LOGIN = gql`
   mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
       token
@@ -48,57 +47,62 @@ const LOGIN = gql`
 `;
 
 const Login = () => {
-	let history = useHistory()
+  let history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-	const [login, { data }] = useMutation(LOGIN);
+  const [login, { data }] = useMutation(LOGIN);
 
-	useEffect(() => {
-		let token = localStorage.getItem("token")
-		if(token) {
-			history.push("/dashboard")
-		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [])
-	
-	useEffect(() => {
-		if (data) {
-			localStorage.setItem("token", data.login.token)
-			history.push("/dashboard")
-		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [data])
+  useEffect(() => {
+    let token = localStorage.getItem("token");
+    if (token) {
+      history.push("/dashboard");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (data) {
+      localStorage.setItem("token", data.login.token);
+      history.push("/dashboard");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
 
   const handleLogin = () => {
     login({ variables: { email: email, password: password } });
-	};
-	
-	// TODO: Add form
+  };
+
+  // TODO: Add form
 
   return (
     <StyledLogin>
-      <StyledContainer>
-        <StyledH1>Welcome Back!</StyledH1>
-        <TextField
-          variant={"outlined"}
-          placeholder={"Email"}
-          label={"Email"}
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
-        <TextField
-          variant={"outlined"}
-          placeholder={"Password"}
-          label={"Password"}
-          value={password}
-          type={"password"}
-          onChange={(event) => setPassword(event.target.value)}
-        />
-        <Button variant="contained" color="secondary" onClick={handleLogin}>
-          Login
-        </Button>
-      </StyledContainer>
+      <form onSubmit={handleLogin}>
+        <StyledContainer>
+          <StyledH1>Welcome Back!</StyledH1>
+          <TextField
+            id={"Email"}
+            variant={"outlined"}
+            placeholder={"Email"}
+            label={"Email"}
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+          />
+          <TextField
+            id={"Password"}
+            variant={"outlined"}
+            placeholder={"Password"}
+            label={"Password"}
+            value={password}
+            type={"password"}
+            onChange={(event) => setPassword(event.target.value)}
+          />
+          <Button variant="contained" color="secondary" onClick={handleLogin}>
+            Login
+          </Button>
+          {data ? <div role={"success"}></div> : null}
+        </StyledContainer>
+      </form>
     </StyledLogin>
   );
 };

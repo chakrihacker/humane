@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
@@ -38,74 +38,80 @@ const StyledH1 = styled.h2`
 	`}
 `;
 
-const SIGNUP = gql`
-	mutation signup($name: String, $email: String!, $password: String!) {
-		signup(name: $name, email: $email, password: $password) {
-			token
-		}
-	}
-`
+export const SIGNUP = gql`
+  mutation signup($name: String, $email: String!, $password: String!) {
+    signup(name: $name, email: $email, password: $password) {
+      token
+    }
+  }
+`;
 
 const Signup = () => {
-	let history = useHistory()
-	const [name, setName] = useState("")
-	const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
+  let history = useHistory();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-	const [signup, {data}] = useMutation(SIGNUP)
+  const [signup, { data }] = useMutation(SIGNUP);
 
-	useEffect(() => {
-		let token = localStorage.getItem("token")
-		if(token) {
-			history.push("/dashboard")
-		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [])
+  useEffect(() => {
+    let token = localStorage.getItem("token");
+    if (token) {
+      history.push("/dashboard");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-	useEffect(() => {
-		if (data) {
-			localStorage.setItem("token", data.login.token)
-			history.push("/dashboard")
-		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [data])
-	
-	const handleSignup = () => {
-		signup({variables: {email: email, password: password, name: name}})
-	}
+  useEffect(() => {
+    if (data) {
+      localStorage.setItem("token", data.signup.token);
+      history.push("/dashboard");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
 
-	return (
-		<StyledSignup>
-			<StyledContainer>
-				<StyledH1>Create your account</StyledH1>
-				<TextField
-          variant={"outlined"}
-          placeholder={"Enter your name"}
-          label={"Name"}
-          value={name}
-          onChange={(event) => setName(event.target.value)}
-        />
-				<TextField
-          variant={"outlined"}
-          placeholder={"Email"}
-          label={"Email"}
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
-        <TextField
-          variant={"outlined"}
-          placeholder={"Password"}
-          label={"Password"}
-          value={password}
-          type={"password"}
-          onChange={(event) => setPassword(event.target.value)}
-        />
-				<Button variant="contained" color="secondary" onClick={handleSignup}>
-          Login
-        </Button>
-			</StyledContainer>
-		</StyledSignup>
-	)
-}
+  const handleSignup = () => {
+    signup({ variables: { email: email, password: password, name: name } });
+  };
 
-export default Signup
+  return (
+    <StyledSignup>
+      <form onSubmit={handleSignup}>
+        <StyledContainer>
+          <StyledH1>Create your account</StyledH1>
+          <TextField
+						id={"Name"}
+            variant={"outlined"}
+            placeholder={"Enter your name"}
+            label={"Name"}
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
+          <TextField
+						id={"Email"}
+            variant={"outlined"}
+            placeholder={"Email"}
+            label={"Email"}
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+          />
+          <TextField
+						id={"Password"}
+            variant={"outlined"}
+            placeholder={"Password"}
+            label={"Password"}
+            value={password}
+            type={"password"}
+            onChange={(event) => setPassword(event.target.value)}
+          />
+          <Button variant="contained" color="secondary" onClick={handleSignup}>
+            Signup
+          </Button>
+          {data ? <div role={"success"}></div> : null}
+        </StyledContainer>
+      </form>
+    </StyledSignup>
+  );
+};
+
+export default Signup;

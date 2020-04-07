@@ -36,6 +36,11 @@ const Header = () => {
           history.push(`/dashboard${route}`)
         }
         break;
+
+      case "/logout":
+        localStorage.removeItem("token");
+        history.push("/")
+        break;
     
       default:
         break;
@@ -81,6 +86,7 @@ const Header = () => {
           >
             <MenuItem onClick={() => handleClose("/spend-history")}>Spend History</MenuItem>
             <MenuItem onClick={() => handleClose("/client-contacts")}>Manage Contacts</MenuItem>
+            <MenuItem onClick={() => handleClose("/logout")}>Logout</MenuItem>
           </Menu>
         </div>
       </StyledToolbar>
